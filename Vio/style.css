@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans';
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.medsos{
+    padding: 20px 0;
+    background-color: rgb(252, 177, 16);
+}
+.medsos ul li{
+    display: inline-block;
+    color: #fff;
+    margin-left: 10px;
+}
+.container{
+    width: 80%;
+    margin:0 auto;
+}
+.container:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+header h1{
+    float: left;
+    padding: 15px 20px;
+    color: black;
+}
+header ul{
+    float: right;
+}
+header ul li{
+    display: inline-block;
+}
+header ul li a{
+    padding: 25px 20px;
+    display: inline-block;
+
+}
+header ul li a:hover{
+    background-color: rgb(252, 177, 16);
+    color: #fff;
+}
+.active{
+      background-color: rgb(252, 177, 16);
+    color: #fff;
+}
+.gambar{
+    height: 60vh;
+    background-image: url(2.jpg);
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gambar::after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(225, 225, 225, -2);
+}
+.gambar h2{
+    color: rgb(7, 7, 7);
+    font-size: 72px;
+    font-family: 'Times New Roman';
+    z-index: 1;
+}
+section{
+    padding: 50px 0;
+}
+section {
+    padding: 50px 0;
+}
+section h3{
+    text-align: center;
+    padding: 20px;
+    word-spacing: 2px;
+    line-height: 25px;
+}
+.about{
+    background-color: #f9f9f9;
+    color: #333;
+    word-spacing: 2px;
+    line-height: 25px;
+}
+.about h3{
+    font-size: 30px;
+}
+.about p{
+    margin: 25px;
+    text-align: justify;
+    font-size: 20px;
+}
+.about img{
+    width: 500px;
+    height: 300px;
+}
+section{
+    padding: 50px;
+}
+section h4{
+    text-align: center;
+    padding: 20px 0;
+    color: #333;
+    margin-bottom: 20px;
+}
+.occurences{
+    background-color: #f9f9f9;
+    color: #333;
+    word-spacing: 2px;
+    line-height: 25px;
+}
+.occurences h4{
+    font-size: 30px;
+}
+.occurences p{
+    margin: 25px;
+    text-align: justify;
+    font-size: 20px;
+}
+.occurences img{
+    width: 500px;
+    height: 300px;
+}
+section{
+    padding: 50px;
+}
+section h5{
+    text-align: center;
+    padding: 20px 0;
+    color: #333;
+    margin-bottom: 20px;
+}
+.photos{
+    background-color: #f9f9f9;
+    color: #333;
+    word-spacing: 2px;
+    line-height: 25px;
+}
+.photos h5{
+    color: #333;
+    word-spacing: 2px;
+    line-height: 25px;
+    font-size: 30px;
+}
+.photo img{
+    width: 500px;
+    height: 300px;
+}
+.location{
+    background-color: #f9f9f9;
+}
+.location h3{
+    color: #333;
+    word-spacing: 2px;
+    line-height: 25px;
+    font-size: 30px;
+}
+.label{
+    background-color: orange;
+    color: #fff;
+    font-size: 25px;
+    padding: 40px 0;}
